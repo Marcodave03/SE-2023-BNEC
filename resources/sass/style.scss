@@ -1,0 +1,197 @@
+$pink: rgb(255,84,136);
+$pink-hover: rgb(211, 38, 90);
+$blue : #00A3FF;
+$blue-hover: #0078bd;
+$orange : #FF6E58;
+$orange-hover: #ff4224;
+//body
+body{
+    font-family: 'Noto Sans Cham', sans-serif;
+    font-weight: 400;
+    background: #FFF5F5; 
+}
+.shadow-sm-red{
+    box-shadow: 0 .125rem .25rem rgba(255,84,136,0.275);
+}
+
+@media(max-width:768px){
+    .resp-logo{
+        /* transform: scale(0.7) */
+        min-width: 200px;
+    }
+}
+@media(max-width:767px){
+    .bnec-logo{
+        max-width:40%;
+    }
+    .copyright{
+        display: none;
+    }
+}
+
+
+.btn-pink-register{
+    background: $pink;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 2px solid $pink;
+}
+
+.btn-orange-donate{
+    background: $orange;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 2px solid $orange;
+}
+
+.btn-blue-guide-book{
+    border: 2px solid $blue;
+    font-family: 'Acme', sans-serif;
+    color: $blue;
+    text-decoration: none;
+}
+
+.btn-pink-register:hover{
+    background: $pink-hover;
+    border: 2px solid $pink-hover;
+}
+
+.btn-orange-donate:hover{
+    background: $orange-hover;
+    border: 2px solid $orange-hover;
+}
+
+.btn-blue-guide-book:hover{
+    background: $blue-hover;
+    border: 2px solid $blue-hover;
+    color: white;
+}
+
+.custom-linear-gradient{
+    background: linear-gradient(180deg, rgba(247, 89, 169, 0.50) 0%, #F759A9 49.48%, #FFF5F5 100%);
+    z-index: 1;
+}
+  
+#sponsors{
+    background-image: url(/SE_ALS2023/storage/app/public/assets/sprinkles.svg);
+}
+
+.font-noto{
+    font-family: Noto Sans-Light;
+}
+
+.font-notosemibold{
+    font-family: Noto Sans-Semibold;
+}
+
+.font-acme{
+    font-family: Acme;
+}
+
+.text-pink{
+    color:#f759a9
+}
+
+.text-white{
+    color: white;
+}
+
+.donation-button{
+    // padding: 5%;
+    // background-color: #f759a9;
+    color: #f759a9;
+}
+
+.padding-top{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.navtext{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.navtext:hover{
+    text-decoration: underline;
+}
+// .donation-box{
+//     background-image:image(());
+// }
+
+@media (max-width: 767px) {
+    .navtext {
+      padding: 0; /* Remove padding for smaller screens (mobile) */
+    }
+  }
+
+
+// section-title
+.section-title{
+      font-family: 'Acme', sans-serif;
+      color: $pink;
+}
+
+/* width */
+::-webkit-scrollbar {
+      width: 5px;
+      position: absolute;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+      background: #f1f1f100;
+      position: absolute;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+      background: #AA0046;
+      border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+      background: #AA0046;
+}
+
+//admin
+.text-pink{
+      color: $pink;
+}
+
+.btn-pink{
+      color: white;
+      background-color: $pink;
+      border-radius: 8px;
+      border: none;
+      padding: 6px 10px;
+      text-decoration: none;
+}
+
+.btn-pink:hover{
+      background-color: $pink-hover;
+}
+
+.sponsor_medpar_input.btn-check:hover  .sponsor_medpar_input label{
+      color: blue;
+}
+
+.btn-outline-pink{
+      color: $pink;
+      outline: 1px solid $pink;
+      background-color:white;
+      border-radius: 8px;
+      border: none;
+      padding: 6px 10px;
+      text-decoration: none;
+}
+
+.btn-outline-pink:hover{
+      color: white;
+      background-color: $pink-hover;
+}
+
